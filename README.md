@@ -17,10 +17,19 @@ Test and working with Magento CE 1.5+... 1.7.0.2 , and Magento EE 1.10+.. 1.13.0
 
 Check the scren shots:
 
+##Inline Edit in the Grid With locale Support ( admin panel )
+
+![Inline Edit](http://i.imgur.com/Xof8LjL.png)
+
+##Inline Edit in the Grid ( admin panel )
+
+![Inline Edit](http://i.imgur.com/UZAZDrE.png)
+
+## Edit Region
 
 ![Edit Region](http://i.imgur.com/nwpYvVd.png)
 
-![Inline Edit](http://i.imgur.com/UZAZDrE.png)
+##Grid List of Regions 
 
 ![Grid List of regions](http://i.imgur.com/q9TfbCj.png)
 
