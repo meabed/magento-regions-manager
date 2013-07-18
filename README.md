@@ -6,6 +6,7 @@ Magento provides country and region* as dropdown option in addresses This module
 
 Very Easy to use ( it allow you to edit in place all the values ) hover and click on the value so you will be able to edit in place ( look at the screen shots )
 
+Test and working with Magento CE 1.5+... 1.7.0.2 , and Magento EE 1.10+.. 1.13.0.1
 
 - Usage :
 
