@@ -19,6 +19,9 @@ Check the scren shots:
 
 ###Inline Edit in the Grid With locale Support ( admin panel )
 
+
+![Inline Edit](http://i.imgur.com/hEQxLFM.png)
+
 ![Inline Edit](http://i.imgur.com/Xof8LjL.png)
 
 ###Inline Edit in the Grid ( admin panel )
