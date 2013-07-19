@@ -4,10 +4,15 @@ Manage regions in magento addresses
 
 Magento provides country and regions and cities as dropdown option in addresses This module  provides flexibility of managing this regions for each country with its locale translations.
 
+Its forgetten Feature that magento doesn't have which many developers requires it.
+
 Very Easy to use ( it allow you to edit in place all the values ) hover and click on the value so you will be able to edit in place ( look at the screen shots )
 
 Test and working with Magento CE 1.5+... 1.7.0.2 , and Magento EE 1.10+.. 1.13.0.1
-
+- Features:
+	- Complete native code ( php magento ) no Theme/layout modification required
+	- Inline Edit which make it very easy to change data in faster way
+	- Locale support, so you will be able to change name of the regions for each locale in your store.
 - Usage :
 
 	1 - Install the Module 
