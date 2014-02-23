@@ -13,14 +13,22 @@ Test and working with Magento CE 1.5+... 1.7.0.2 , and Magento EE 1.10+.. 1.13.0
 	- Complete native code ( php magento ) no Theme/layout modification required
 	- Inline Edit which make it very easy to change data in faster way
 	- Locale support, so you will be able to change name of the regions for each locale in your store.
-- Usage :
 
-	1 - Install the Module 
-	
-	2 - Go to Menu CMS -> Country States
+##Usage :
+
+###Install via [Magento Connect](http://www.magentocommerce.com/magento-connect/catalog/product/view/id/18954/)
 
 
-Check the scren shots:
+###Manual Installation:
+    1- Copy the files into magento ROOT Directory
+    2- Clear magento cache
+
+
+
+Now Navigate from the top Menu CMS -> Country States
+
+
+Check the screen shots:
 
 ###Inline Edit in the Grid With locale Support ( admin panel )
 
