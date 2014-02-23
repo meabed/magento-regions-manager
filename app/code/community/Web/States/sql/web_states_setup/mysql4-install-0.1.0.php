@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Mohammed Meabed
+ * Created by Mohamed Meabed
  * Date: 7/18/13
  * Time: 3:46 AM
  */ 

@@ -1,6 +1,11 @@
 <?php
 class Web_States_Block_Adminhtml_Renderer_Name extends Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Action
 {
+    /**
+     * @param Varien_Object $row
+     *
+     * @return array|string
+     */
     public function render(Varien_Object $row)
     {
         $html = '';

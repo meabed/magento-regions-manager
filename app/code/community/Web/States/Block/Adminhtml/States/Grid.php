@@ -1,6 +1,9 @@
 <?php
 class Web_States_Block_Adminhtml_States_Grid extends Mage_Adminhtml_Block_Widget_Grid
 {
+    /**
+     *
+     */
     public function __construct()
     {
         parent::__construct();
@@ -10,15 +13,23 @@ class Web_States_Block_Adminhtml_States_Grid extends Mage_Adminhtml_Block_Widget
         $this->setSaveParametersInSession(true);
     }
 
+    /**
+     * @return Mage_Adminhtml_Block_Widget_Grid
+     */
     protected function _prepareCollection()
     {
+        /** @var Varien_Data_Collection $collection */
         $collection = Mage::getModel('web_states/states')->getCollection();
+
         $this->setCollection($collection);
 
         $this->setLocales(Mage::helper('web_states')->getLocales());
         return parent::_prepareCollection();
     }
 
+    /**
+     * @return $this
+     */
     protected function _prepareColumns()
     {
         $this->addColumn(
@@ -98,12 +109,19 @@ class Web_States_Block_Adminhtml_States_Grid extends Mage_Adminhtml_Block_Widget
         return parent::_prepareColumns();
     }
 
+    /**
+     * @param $row
+     *
+     * @return string
+     */
     public function getRowUrl($row)
     {
         return '';
-        return $this->getUrl('*/*/edit', array('id' => $row->getRegionId()));
     }
 
+    /**
+     * @return $this|Mage_Adminhtml_Block_Widget_Grid
+     */
     protected function _prepareMassaction()
     {
         $this->setMassactionIdField('region_id');
@@ -118,6 +136,9 @@ class Web_States_Block_Adminhtml_States_Grid extends Mage_Adminhtml_Block_Widget
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function getScripts()
     {
         $locales = Mage::helper('web_states')->getLocales();
@@ -178,7 +199,6 @@ EOF;
         }
         $js .='});';
         return $js;
-
     }
 
 }

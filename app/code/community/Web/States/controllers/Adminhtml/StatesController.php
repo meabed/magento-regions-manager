@@ -1,6 +1,9 @@
 <?php
 class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Action
 {
+    /**
+     * @return $this
+     */
     protected function _initAction()
     {
         $this->loadLayout()
@@ -9,12 +12,18 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
         return $this;
     }
 
+    /**
+     *
+     */
     public function indexAction()
     {
         $this->_initAction();
         $this->renderLayout();
     }
 
+    /**
+     *
+     */
     public function editAction()
     {
         $regionId = $this->getRequest()->getParam('region_id');
@@ -36,11 +45,17 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
         }
     }
 
+    /**
+     *
+     */
     public function newAction()
     {
         $this->_forward('edit');
     }
 
+    /**
+     *
+     */
     public function saveAction()
     {
         $request = $this->getRequest();
@@ -99,6 +114,9 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
         $this->_redirect('*/*/');
     }
 
+    /**
+     *
+     */
     public function saveNameAction()
     {
         $request = $this->getRequest();
@@ -123,6 +141,9 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
 
     }
 
+    /**
+     *
+     */
     public function saveNameLocaleAction()
     {
         $request = $this->getRequest();
@@ -154,6 +175,9 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
         echo $row['name'];
     }
 
+    /**
+     *
+     */
     public function saveCodeAction()
     {
         $request = $this->getRequest();
@@ -189,6 +213,9 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
         echo $model->getCode();
     }
 
+    /**
+     *
+     */
     public function massDeleteAction()
     {
         $stateIds = $this->getRequest()->getParam('web_states');
@@ -210,7 +237,6 @@ class Web_States_Adminhtml_StatesController extends Mage_Adminhtml_Controller_Ac
         }
 
         $this->_redirect('*/*/index');
-
     }
 
 }

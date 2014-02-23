@@ -1,6 +1,9 @@
 <?php
 class Web_States_Block_Adminhtml_States_Edit extends Mage_Adminhtml_Block_Widget_Form_Container
 {
+    /**
+     *
+     */
     public function __construct()
     {
         parent::__construct();
@@ -12,6 +15,9 @@ class Web_States_Block_Adminhtml_States_Edit extends Mage_Adminhtml_Block_Widget
 
     }
 
+    /**
+     * @return string
+     */
     public function getHeaderText()
     {
         if (Mage::registry('state_data') && Mage::registry('state_data')->getRegionId()) {

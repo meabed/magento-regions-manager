@@ -1,10 +1,13 @@
 <?php
 /**
- * Created by Mohammed Meabed
+ * Created by Mohamed Meabed
  * Date: 7/18/13
  * Time: 3:46 AM
  */ 
 class Web_States_Helper_Data extends Mage_Core_Helper_Abstract {
+    /**
+     * @return array
+     */
     public function getLocales()
     {
         $stores = Mage::app()->getStores();
