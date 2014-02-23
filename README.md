@@ -16,16 +16,16 @@ Test and working with Magento CE 1.5+... 1.7.0.2 , and Magento EE 1.10+.. 1.13.0
 
 ##Usage :
 
-###Install via [Magento Connect](http://www.magentocommerce.com/magento-connect/catalog/product/view/id/18954/)
+####Install via [Magento Connect](http://www.magentocommerce.com/magento-connect/catalog/product/view/id/18954/)
 
 
-###Manual Installation:
+####Manual Installation:
     1- Copy the files into magento ROOT Directory
     2- Clear magento cache
 
 
 
-Now Navigate from the top Menu CMS -> Country States
+####Now Navigate from the top Menu CMS -> Country States
 
 
 Check the screen shots:
