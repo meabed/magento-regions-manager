@@ -21,9 +21,10 @@ class Web_States_Block_Adminhtml_Renderer_Name extends Mage_Adminhtml_Block_Widg
             $arr[$row['locale']] = $row['name'];
         }
         foreach ($locales as $locale) {
-            $name = $arr[$locale];
-            if (!$name) {
+            if (!array_key_exists($locale,$arr)) {
                 $name = 'EMPTY';
+            }else{
+                $name = $arr[$locale];
             }
             $html[] = '<span>' . $locale . '</span> => <span class="' . $locale . '_name">' . $name . '</span>';
         }
