@@ -17,6 +17,7 @@ class Web_States_Block_Adminhtml_Renderer_Name extends Mage_Adminhtml_Block_Widg
 
         $select = $read->select()->from(array('region' => $regionName))->where('region.region_id=?', $row->getRegionId());
         $data = $read->fetchAll($select);
+        $arr = array();
         foreach ($data as $row) {
             $arr[$row['locale']] = $row['name'];
         }
