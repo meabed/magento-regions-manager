@@ -69,11 +69,11 @@
         </layout>
         <translate>
             <modules>
-                <Mage_Api>
+                <Web_States>
                     <files>
                         <default>Web_States.csv</default>
                     </files>
-                </Mage_Api>
+                </Web_States>
             </modules>
         </translate>
     </adminhtml>
