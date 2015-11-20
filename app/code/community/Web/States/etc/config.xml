@@ -67,5 +67,14 @@
                 </web_states>
             </updates>
         </layout>
+        <translate>
+            <modules>
+                <Mage_Api>
+                    <files>
+                        <default>Web_States.csv</default>
+                    </files>
+                </Mage_Api>
+            </modules>
+        </translate>
     </adminhtml>
 </config>
