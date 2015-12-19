@@ -67,5 +67,14 @@
                 </web_states>
             </updates>
         </layout>
+        <translate>
+            <modules>
+                <Web_States>
+                    <files>
+                        <default>Web_States.csv</default>
+                    </files>
+                </Web_States>
+            </modules>
+        </translate>
     </adminhtml>
 </config>
