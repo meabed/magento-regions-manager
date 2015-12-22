@@ -1,0 +1,4 @@
+app/code/community/Web                                        app/code/community/Web
+app/design/adminhtml/default/default/layout/web_states.xml    app/design/adminhtml/default/default/layout/web_states.xml
+app/etc/modules/Web_States.xml                                app/etc/modules/Web_States.xml
+app/locale/Web_States.csv                                     app/locale/Web_States.csv
